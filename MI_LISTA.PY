@@ -1,0 +1,16 @@
+print("ejemplo de listas")
+arcoiris = ["verde","azul"]
+print(arcoiris)
+longitud = len (arcoiris)
+print ("elementos que contiene la lsita de arcoiris",  longitud)
+print ("elementos que contiene la lsita de arcoiris v2",  {longitud})
+print("accediendo a un elemento de una lista")
+print (arcoiris [1])
+print(f"elemento en la pocision 0 es {arcoiris[0]}" )
+print(f"el primer color del arcoiris es : ", arcoiris[0] )
+print("agregar a un elemento de la lista")
+arcoiris.append("naranja")
+print(arcoiris)
+print("listar los elementos en cicl for ")
+for nava in arcoiris:
+    print(nava)
